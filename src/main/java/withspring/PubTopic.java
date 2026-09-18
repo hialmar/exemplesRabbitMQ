@@ -21,7 +21,7 @@ public class PubTopic {
 
             channel.exchangeDeclare(EXCHANGE_NAME, "topic", true);
 
-            CustomMessage monObjet = new CustomMessage("Hello Again!", 15, true);
+            CustomMessage monObjet = new CustomMessage("Hello MIAGE!", 15, true);
             Gson gson = new Gson();
             String message = gson.toJson(monObjet);
             AMQP.BasicProperties props = new AMQP.BasicProperties();
