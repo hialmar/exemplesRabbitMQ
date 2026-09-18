@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce6d893e-6db5-4cf1-9c2a-edadce978ac6" name="Changes" comment="Passage à rabbitmq 4.3.6 plus de file non durables non exclusives.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/withspring/PubTopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/withspring/PubTopic.java" afterDir="false" />
-    </list>
+    <list default="true" id="ce6d893e-6db5-4cf1-9c2a-edadce978ac6" name="Changes" comment="Dernières versions des dépendances (AMQP client et Gson)." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +88,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pubsub.topic.PubTopic">
+  <component name="RunManager" selected="Application.pubsub.topic.SubTopicAll">
     <configuration name="PubTopic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="withspring.PubTopic" />
       <module name="exemplesRabbitMQ" />
@@ -132,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pubsub.topic.PubTopic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="pubsub.topic.PubTopic" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pubsub.topic.PubTopic" />
       <module name="exemplesRabbitMQ" />
       <extension name="coverage">
@@ -145,7 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pubsub.topic.SubTopicAll" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="pubsub.topic.SubTopicAll" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pubsub.topic.SubTopicAll" />
       <module name="exemplesRabbitMQ" />
       <extension name="coverage">
@@ -160,15 +156,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.pubsub.topic.PubTopic" />
-      <item itemvalue="Application.PubTopic" />
       <item itemvalue="Application.pubsub.topic.SubTopicAll" />
+      <item itemvalue="Application.PubTopic" />
       <item itemvalue="Application.SubTopicAll" />
       <item itemvalue="Application.RPCClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pubsub.topic.PubTopic" />
-        <item itemvalue="Application.pubsub.topic.SubTopicAll" />
         <item itemvalue="Application.PubTopic" />
         <item itemvalue="Application.SubTopicAll" />
         <item itemvalue="Application.RPCClient" />
@@ -222,7 +216,7 @@
       <workItem from="1788870398900" duration="3223000" />
       <workItem from="1788954944052" duration="9783000" />
       <workItem from="1789476184302" duration="620000" />
-      <workItem from="1789558283828" duration="8891000" />
+      <workItem from="1789558283828" duration="9290000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des exemples.">
       <created>1696517575930</created>
@@ -246,16 +240,44 @@
       <option name="project" value="LOCAL" />
       <updated>1789721249862</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dernières versions des dépendances (AMQP client et Gson).">
+      <option name="closed" value="true" />
+      <created>1789741133942</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1789741133942</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Dernières versions des dépendances (AMQP client et Gson).">
+      <option name="closed" value="true" />
+      <created>1789741187167</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1789741187167</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout des exemples." />
     <MESSAGE value="Le fichier workspace.xml peut contenir des secrets (URL de RabbitMQ avec mot de passe)." />
     <MESSAGE value="Passage à rabbitmq 4.3.6 plus de file non durables non exclusives." />
-    <option name="LAST_COMMIT_MESSAGE" value="Passage à rabbitmq 4.3.6 plus de file non durables non exclusives." />
+    <MESSAGE value="Dernières versions des dépendances (AMQP client et Gson)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dernières versions des dépendances (AMQP client et Gson)." />
   </component>
 </project>
