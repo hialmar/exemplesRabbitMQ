@@ -13,6 +13,8 @@ public class SubTopicAll {
     public static void main(String[] argv) throws Exception {
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost("localhost");
+        //factory.setUri("amqps://zsmjfdwa:YAMrH7fE2L-VhfXIwR5vSFFWjwRLfWZu@seal.lmq.cloudamqp.com/zsmjfdwa");
+
         Connection connection = factory.newConnection();
         Channel channel = connection.createChannel();
 

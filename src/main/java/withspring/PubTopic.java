@@ -15,12 +15,13 @@ public class PubTopic {
     public static void main(String[] argv) throws Exception {
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost("localhost");
+        //factory.setUri("amqps://zsmjfdwa:YAMrH7fE2L-VhfXIwR5vSFFWjwRLfWZu@seal.lmq.cloudamqp.com/zsmjfdwa");
         try (Connection connection = factory.newConnection();
              Channel channel = connection.createChannel()) {
 
             channel.exchangeDeclare(EXCHANGE_NAME, "topic", true);
 
-            CustomMessage monObjet = new CustomMessage("Hello World!", 15, true);
+            CustomMessage monObjet = new CustomMessage("Hello Again!", 15, true);
             Gson gson = new Gson();
             String message = gson.toJson(monObjet);
             AMQP.BasicProperties props = new AMQP.BasicProperties();

@@ -13,14 +13,13 @@ public class Sender {
 
     public static void main(String[] argv) throws Exception {
         ConnectionFactory factory = new ConnectionFactory();
-        // tente de récupérer l'URL de RabbitMQ
-        if(System.getenv("RABBIT_URL") != null)
-            factory.setUri(System.getenv("RABBIT_URL"));
-        else // sinon on tente en local
-            factory.setHost("localhost");
+        // utilise l'URL du serveur AMQP
+        // factory.setUri("amqps://ullismzb:c9SOdRKAdhUnqWjDW847u_1I7yn7L0VD@collie.lmq.cloudamqp.com/ullismzb");
+        // pour fonctionnement en local
+        factory.setHost("localhost");
         try (Connection connection = factory.newConnection();
              Channel channel = connection.createChannel()) {
-            channel.queueDeclare(QUEUE_NAME, false, false, false, null);
+            channel.queueDeclare(QUEUE_NAME, true, false, false, null);
 
             MaClasse monObjet = new MaClasse("Hello World!", 1.5f);
             Gson gson = new Gson();

@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce6d893e-6db5-4cf1-9c2a-edadce978ac6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="ce6d893e-6db5-4cf1-9c2a-edadce978ac6" name="Changes" comment="Le fichier workspace.xml peut contenir des secrets (URL de RabbitMQ avec mot de passe).">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objects/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objects/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objects/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objects/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/prodconso/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prodconso/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/prodconso/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prodconso/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/RPCServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpc/RPCServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/withspring/PubTopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/withspring/PubTopic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/withspring/SubTopicAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/withspring/SubTopicAll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,34 +22,86 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hialmar&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hialmar/exemplesRabbitMQ.git&quot;,
+    &quot;accountId&quot;: &quot;c3d88654-3e7a-460b-ab3e-bd69f8059f6e&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2WLgkHWXS5JSPdd0Utk5lD6s0tW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Conso1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Conso2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Conso3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prod1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prod2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PubDirect.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PubSimple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PubTopic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RPCClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RPCServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Receiver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sender.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubDirectAll.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubDirectError.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubDirectWarning.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubSimple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubTopicAll.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubTopicDirect.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubTopicHash.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubTopicStars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.prodconso.Receiver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.prodconso.Sender.executor&quot;: &quot;Run&quot;,
+    &quot;Application.withspring.PubTopic.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/torguet/dev/Java/exemplesRabbitMQ&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Sender">
-    <configuration name="Receiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objects.Receiver" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PubTopic">
+    <configuration name="PubDirect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pubsub.direct.PubDirect" />
       <module name="exemplesRabbitMQ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="objects.*" />
+          <option name="PATTERN" value="pubsub.direct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objects.Sender" />
+    <configuration name="PubTopic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="withspring.PubTopic" />
       <module name="exemplesRabbitMQ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="objects.*" />
+          <option name="PATTERN" value="withspring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +122,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RPCClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rpc.RPCClient" />
+      <module name="exemplesRabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RPCServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rpc.RPCServer" />
+      <module name="exemplesRabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubTopicAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="withspring.SubTopicAll" />
+      <module name="exemplesRabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="withspring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PubDirect" />
+      <item itemvalue="Application.PubTopic" />
+      <item itemvalue="Application.SubTopicAll" />
+      <item itemvalue="Application.RPCClient" />
+      <item itemvalue="Application.RPCServer" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sender" />
-        <item itemvalue="Application.Receiver" />
+        <item itemvalue="Application.PubTopic" />
+        <item itemvalue="Application.SubTopicAll" />
+        <item itemvalue="Application.RPCClient" />
+        <item itemvalue="Application.RPCServer" />
+        <item itemvalue="Application.PubDirect" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,11 +194,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696517415603</updated>
-      <workItem from="1696517417019" duration="36000" />
+      <workItem from="1696517417019" duration="2057000" />
+      <workItem from="1696520496800" duration="1248000" />
+      <workItem from="1696593124006" duration="604000" />
+      <workItem from="1726820100668" duration="720000" />
+      <workItem from="1726821336024" duration="668000" />
+      <workItem from="1726824083335" duration="1821000" />
+      <workItem from="1727243471732" duration="2000" />
+      <workItem from="1727244229610" duration="2000" />
+      <workItem from="1727356981188" duration="808000" />
+      <workItem from="1727359246017" duration="1225000" />
+      <workItem from="1727441106604" duration="600000" />
+      <workItem from="1727761645244" duration="1815000" />
+      <workItem from="1727860034718" duration="599000" />
+      <workItem from="1728020975930" duration="2061000" />
+      <workItem from="1728023515928" duration="48000" />
+      <workItem from="1728023601798" duration="5097000" />
+      <workItem from="1757058478121" duration="3699000" />
+      <workItem from="1757087885489" duration="5000" />
+      <workItem from="1757653668169" duration="1473000" />
+      <workItem from="1757938706097" duration="311000" />
+      <workItem from="1757939539214" duration="3351000" />
+      <workItem from="1758282878280" duration="136000" />
+      <workItem from="1758283055982" duration="4787000" />
+      <workItem from="1758711957355" duration="23000" />
+      <workItem from="1759479220087" duration="5097000" />
+      <workItem from="1759920805401" duration="1000" />
+      <workItem from="1761047616478" duration="10278000" />
+      <workItem from="1788508355248" duration="4582000" />
+      <workItem from="1788870398900" duration="3223000" />
+      <workItem from="1788954944052" duration="9783000" />
+      <workItem from="1789476184302" duration="620000" />
+      <workItem from="1789558283828" duration="5509000" />
     </task>
+    <task id="LOCAL-00001" summary="Ajout des exemples.">
+      <created>1696517575930</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696517575930</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Le fichier workspace.xml peut contenir des secrets (URL de RabbitMQ avec mot de passe).">
+      <created>1696520440280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696520440280</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout des exemples." />
+    <MESSAGE value="Le fichier workspace.xml peut contenir des secrets (URL de RabbitMQ avec mot de passe)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Le fichier workspace.xml peut contenir des secrets (URL de RabbitMQ avec mot de passe)." />
   </component>
 </project>
